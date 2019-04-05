@@ -1,0 +1,28 @@
+{
+  "name": "cardconnectsdk",
+  "version": "1.0.0",
+  "description": "CardConnect SDK",
+  "main": "cardconnect.js",
+  "scripts": {
+    "test": "mocha cardconnect/test --reporter nyan"
+  },
+  "author": "CardConnect",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "gulp": "^4.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-mocha": "^6.0.0",
+    "jshint": "^2.9.5",
+    "mocha": "^3.4.2",
+    "should": "^11.2.1"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "keywords": [
+    "cardconnect",
+    "payments",
+    "gateway"
+  ]
+}
