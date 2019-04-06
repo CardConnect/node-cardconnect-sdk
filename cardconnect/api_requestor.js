@@ -15,7 +15,7 @@ ApiRequestor.prototype.SendRequest = function(config, request)
       path: config.path,
       method: config.method,
       headers: {
-        'Authorization': 'Basic ' + new Buffer(config.username + ':' + config.password).toString('base64'),
+        'Authorization': 'Basic ' + new Buffer.from(config.username + ':' + config.password).toString('base64'),
         'Content-Type': 'application/json',
         'Accept': 'application/json'
       }
