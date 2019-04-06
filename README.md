@@ -1,5 +1,4 @@
-# node-cardconnect-sdk
-NodeJS CardConnect API SDK
+# NodeJS CardConnect API SDK
 
 View Docs: https://developer.cardconnect.com/cardconnect-api
 
