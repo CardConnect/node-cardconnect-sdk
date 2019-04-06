@@ -1,4 +1,4 @@
-# node-cardconnect-api
+# node-cardconnect-sdk
 NodeJS CardConnect API SDK
 
 Install
